@@ -14,3 +14,4 @@ Just run
 ```
 npm start
 ```
+You can then access the server through [port 8096](http://127.0.0.1:8096/)
