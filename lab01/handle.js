@@ -9,9 +9,14 @@ const serverHandle = function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
 
   if (path === '/hello' && 'name' in params) {
-    res.write('Hey ' + params['name']);
-  } else {
+    if (['Leonardo', 'leonardo', 'Leo', 'leo'].includes(params['name']))
+      res.write('Why am I here...');
+    else
+      res.write('Hey ' + params['name']);
+  } else if (path === '/hello') {
     res.write('hey man!');
+  } else {
+    res.write('Go to /hello to receive greetings\nYou can optionally give your name in query strings');
   }
   res.end();
 }
