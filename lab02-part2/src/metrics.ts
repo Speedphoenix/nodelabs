@@ -6,7 +6,7 @@ export class Metric {
     this.timestamp = ts;
     this.value = v;
   }
-}
+};
 
 export class MetricsHandler {
   static get(callback: (error: Error | null, result?: Metric[]) => void) {
@@ -16,4 +16,4 @@ export class MetricsHandler {
     ];
     callback(null, result);
   }
-}
+};

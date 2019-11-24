@@ -4,6 +4,7 @@
   "description": "The second part of lab 02 of the node labs",
   "main": "src/server.ts",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "typescript": "^3.7.2"
   },
