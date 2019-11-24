@@ -1,4 +1,4 @@
-# 01_NodeJS
+# 02_ExpressJS
 This is the second lab for a course on backend web development using Node.
 
 This is basically [Lab01](/lab01) but using `express` instead of the `http` module, and with the possibility to fetch dummy values as metrics.
