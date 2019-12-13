@@ -107,3 +107,6 @@ dist
 # vim swap files
 *.swp
 *.sop
+
+*/db/metrics/*
+*/db/test/*
